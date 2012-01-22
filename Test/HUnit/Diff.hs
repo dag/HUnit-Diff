@@ -1,4 +1,4 @@
-module Test.HUnit.Diff where
+module Test.HUnit.Diff ((@?==), (@==?)) where
 
 import Data.Functor        ( (<$>) )
 
