@@ -1,2 +1,4 @@
 .*.sw?
 .*~
+cabal-dev
+dist
