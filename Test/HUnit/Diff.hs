@@ -21,3 +21,6 @@ x @?== y =
     color c s = setSGRCode [SetColor Foreground Dull c]
                 ++ s ++
                 setSGRCode [Reset]
+
+(@==?) :: (Eq a, Show a) => a -> a -> Assertion
+y @==? x = x @?== y
